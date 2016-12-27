@@ -1,7 +1,7 @@
 oldURL = window.location.toString();
 URLs=
     [['database/121','cd/E57425_01/121'], // DB 12c R1(12.1) docs
-     ['database/122','cd/E82638_01/122'], // DB 12c R2(12.2) docs
+     ['database/122','cd/E82638_01'], // DB 12c R2(12.2) docs
      ['cloud/latest','cd/E60665_01'],
      ['javase/8/docs','javase/jp/8/docs'],
      ['middleware/1213','cd/E57014_01'],  // Fusion Middleware 12c 12.1.3
