@@ -7,3 +7,7 @@
 
 * ls -lR equivalent for Oracle Document Cloud, aka OraDocs or DoCS
 * This version uses OAUTH token, rather than do basic authentication.
+
+# mypastebin122.sh
+
+* Load stdout of any command to BLOB column in a table with hard-coded table name.
