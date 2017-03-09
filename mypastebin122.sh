@@ -6,4 +6,4 @@ BEGINDATA
 $(date +%Y-%m-%d_%H:%M:%S.%N)"-,-"$*"-,-"
 EOF
 export NLS_TIMESTAMP_FORMAT="YYYY-MM-DD_HH24:MI:SSXFF9"
-sqlldr soe/soe@localhost/pdb1.gse00002893.oraclecloud.internal sdf_prefix=<($*) control=/tmp/__$$__bin.ctl < <($*)
+sqlldr soe/soe@localhost/pdb1.gse0000nnnn.oraclecloud.internal sdf_prefix=<($*) control=/tmp/__$$__bin.ctl < <($*)
