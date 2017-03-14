@@ -1,6 +1,7 @@
 #!/bin/bash
 cat <<EOF > /tmp/_$$_sqlldr.ctl
-LOAD DATA INFILE * TRUNCATE INTO TABLE WEB_FILES_T
+options (empty_lobs_are_null=true)
+LOAD DATA INFILE * APPEND INTO TABLE WEB_FILES_T
 fields terminated by '<end-of-record>'
 ( url  position(12) char(512),
   BINDATA LOBFILE(CONSTANT '') terminated by '<end-of-record>\n')
