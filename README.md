@@ -31,3 +31,9 @@
 * Load multiple files fetched by 'curl' to a BLOB column in multiple rows
 * https://blogs.oracle.com/letthesunshinein/loading-multiple-binary-files-via-99117114108-with-sqlloader-in-one-shotpart2
 * https://blogs.oracle.com/letthesunshinein/stream-loading-multiple-binary-files-via-99117114108-with-sqlloaderpart3
+
+# google_date_range.js
+
+* Bookmarklet source
+* Add date range filter to current Google search result page.
+* Initial version is http://kaketarakaku.blogspot.jp/2014/08/google.html
