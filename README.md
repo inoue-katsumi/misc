@@ -37,3 +37,8 @@
 * Bookmarklet source
 * Add date range filter to current Google search result page.
 * Initial version is http://kaketarakaku.blogspot.jp/2014/08/google.html
+
+# jwave_csv.js
+
+* Convert J-WAVE search result to CSV in new tab.
+* Copy these 7 lines of javascript in Firefox Web Console and hit Enter.
